@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pizza Garage </title>
+<meta name="description" content="Pizza Garage — order pizzas, burgers, subs and more. Order online, track it live, collect fresh.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================= NAVBAR ============================= -->
+<header class="navbar">
+  <div class="container">
+    <a href="#home" class="brand">
+      <span class="img"><img src="assets/logo.png" alt="logo"></span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#home" class="active">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#orders">Orders</a>
+      <a href="#history">History</a>
+      <a href="#contact">Contact</a>
+      <a href="#locations">Locations</a>
+    </nav>
+    <button class="nav-cart desktop-only" id="navCartBtn" aria-label="Open cart">
+      🧾 Cart <span class="count" id="navCartCount">0</span>
+    </button>
+    <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<div class="mobile-panel" id="mobilePanel">
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#orders">Orders</a></li>
+    <li><a href="#history">History</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#locations">Locations</a></li>
+    <li><a href="#" id="mobileCartBtn">🧾 Cart (<span id="mobileCartCount">0</span>)</a></li>
+  </ul>
+</div>
+
+<!-- ============================= HOME ============================= -->
+<section class="hero" id="home">
+  <div class="container">
+    <div class="hero-copy">
+      <span class="eyebrow">Fresh dough · daily</span>
+      <h1>Build a pizza worth <em>craving.</em></h1>
+      <p>Hand-stretched crusts, stacked subs and hot-off-the-grill burgers — order ahead, watch it get made, and walk in right as it's ready.</p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" id="orderNowBtn">Order Now →</button>
+        <a href="#menu" class="btn btn-outline">Browse Menu</a>
+      </div>
+      <div class="hero-note">No login needed — just tell us your name once.</div>
+    </div>
+    
+    <div class="hero-gallery">
+      <div class="g-main">
+        <img src="assets/pizza.jpg" alt="Loaded veg pizza with mozerella cheese">
+      </div>
+      <div class="g-top">
+        <img src="assets/burger.jpg" alt="Burger loaded with veggies">
+      </div>
+      <div class="g-bottom">
+        <img src="assets/shake.jpg" alt="thick shake">
+      </div>
+    </div>
+  </div>
+
+  </div>
+</section>
+<div class="value-strip">
+  <div class="container">
+    <span>🔥 <strong>Hand-tossed</strong> crusts, made to order</span>
+    <span>⏱️ <strong>Live status</strong> from kitchen to counter</span>
+    <span>🧾 <strong>Pay online</strong> or at the counter</span>
+  </div>
+</div>
+
+<!-- ============================= MENU ============================= -->
+<section class="menu-section" id="menu">
+  <div class="container section-head">
+    <span class="eyebrow">The full spread</span>
+    <h2>Menu</h2>
+    <p>Everything's grouped the way it's cooked — jump to a section, pick your size, add it in.</p>
+  </div>
+  <div class="menu-jump">
+    <div class="container" id="menuJump"></div>
+  </div>
+  <div class="container" id="menuStrips"></div>
+</section>
+
+<!-- ============================= ORDERS (live tracker) ============================= -->
+<section class="section orders-section" id="orders">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Live status</span>
+      <h2>Your Orders</h2>
+      <p>Anything you've placed today shows up here, updating on its own — no refresh needed.</p>
+    </div>
+    <button onclick="location.reload()">Refresh Page</button>
+    <div id="ordersList"></div>
+  </div>
+</section>
+
+<!-- ============================= HISTORY ============================= -->
+<section class="section" id="history" style="background:var(--paper)">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Past visits</span>
+      <h2>Order History</h2>
+      <p>Everything you've collected before, tied to the name you gave us.</p>
+    </div>
+    <div id="historyList"></div>
+  </div>
+</section>
+
+<!-- ============================= CONTACT ============================= -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Get in touch</span>
+      <h2>Contact</h2>
+      <p>Real details are being added shortly — here's the shape of what's coming.</p>
+    </div>
+    <span class="placeholder-banner">⚠ Placeholder content — phone, email and hours will be added by the café owner</span>
+    <div class="grid-2">
+      <div>
+        <div class="info-card">
+          <h4>📞 Phone</h4>
+          <p>+91 00000 00000 <em>(placeholder)</em></p>
+        </div>
+        <div class="info-card">
+          <h4>✉️ Email</h4>
+          <p>hello@pizzacreator.example <em>(placeholder)</em></p>
+        </div>
+        <div class="info-card">
+          <h4>🕒 Hours</h4>
+          <p>Mon–Sun, 11:00 AM – 11:00 PM <em>(placeholder)</em></p>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="event.preventDefault(); Toast.show('Message received — we\'ll get back to you soon!');">
+        <input type="text" placeholder="Your name" required>
+        <input type="tel" placeholder="Phone number" required>
+        <textarea rows="4" placeholder="What's on your mind?"></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= LOCATIONS ============================= -->
+<section class="section" id="locations" style="background:var(--paper)">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Find us</span>
+      <h2>Locations</h2>
+      <p>Outlet addresses and maps are on the way.</p>
+    </div>
+    <span class="placeholder-banner">⚠ Placeholder content — actual outlet addresses coming soon</span>
+    <div class="grid-2">
+      <div class="info-card">
+        <h4> Outlet 1</h4>
+        <p>Address to be added <em>(placeholder)</em></p>
+      </div>
+      <div class="map-box">Map embed goes here once the address is confirmed</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= FOOTER ============================= -->
+<footer class="footer">
+  <div class="container">
+    <div>
+      <div class="brand"><span class="slice"><img src="assets/logo.png" alt="logo", class="logo"></span>
+      <p style="margin-top:14px;">Hand-stretched, fired hot, built the way you like it. Order ahead and skip the wait.</p>
+    </div>
+    <div>
+      <h5>Explore</h5>
+      <ul>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#orders">Track an order</a></li>
+        <li><a href="#history">Order history</a></li>
+      </ul>
+    </div>
+    <div>
+      <h5>Café</h5>
+      <ul>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="admin.html">Staff login</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span id="year"></span> Pizza Creator. All prices in INR. Menu subject to change.</div>
+</footer>
+
+<!-- ============================= NAME-CAPTURE TICKET MODAL ============================= -->
+<div class="modal-overlay" id="nameModalOverlay">
+  <div class="ticket">
+    <button class="modal-close" id="nameModalClose" aria-label="Close">✕</button>
+    <span class="eyebrow">Table ticket</span>
+    <h3>What should we call you?</h3>
+    <p class="hint">Just your name — no account, no password. We'll use it to tag your order.</p>
+    <input type="text" id="nameInput" placeholder="e.g. Rohan" maxlength="40">
+    <div class="row">
+      <button class="btn btn-primary" id="nameSaveBtn" style="flex:1;">Continue</button>
+    </div>
+    <div class="ticket-notch"></div>
+    <div class="ticket-id" id="ticketIdPreview"></div>
+  </div>
+</div>
+
+<!-- ============================= CART DRAWER ============================= -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<aside class="drawer" id="cartDrawer">
+  <div class="drawer-head">
+    <h3>Your Order</h3>
+    <button class="modal-close" id="drawerCloseBtn" style="position:static;">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+  <div class="drawer-foot">
+    <div class="total-row"><span>Total</span><span id="drawerTotal">₹0</span></div>
+    <div class="pay-methods">
+      <button class="btn btn-outline selected" data-method="counter">Pay at Counter</button>
+      <button class="btn btn-outline" data-method="online">Pay Online (mock)</button>
+    </div>
+    <button class="btn btn-primary" id="placeOrderBtn" style="width:100%;">Place Order</button>
+  </div>
+</aside>
+
+<!-- floating sticky cart bar (mobile-friendly quick access) -->
+<div class="cart-bar" id="cartBar">
+  <div class="info"><b id="cartBarCount">0</b> items · <b id="cartBarTotal">₹0</b></div>
+  <button class="btn btn-flame btn-sm" id="cartBarBtn">View Order</button>
+</div>
+
+<div class="toast" id="toast"></div>
+
+
+<script src="js/config.js"></script>
+<script src="js/api.js"></script>
+<script src="js/cart.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pizza Creator • Staff Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body class="admin-body">
+
+<!-- ========================================================= -->
+<!-- PASSWORD GATE -->
+<!-- ========================================================= -->
+
+<div class="admin-gate" id="adminGate">
+
+    <div class="gate-card">
+
+        <div class="slice">🍕</div>
+
+        <h2>Staff Dashboard</h2>
+
+        <p>Enter the staff password to continue.</p>
+
+        <input
+            type="password"
+            id="gatePassword"
+            placeholder="Password">
+
+        <button
+            class="btn btn-primary"
+            id="gateSubmit">
+
+            Login
+
+        </button>
+
+        <div
+            class="gate-error"
+            id="gateError">
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- DASHBOARD -->
+<!-- ========================================================= -->
+
+<div
+id="dashboard"
+style="display:none;">
+
+<header class="admin-header">
+
+<div class="container header-row">
+
+<a
+href="index.html"
+class="brand">
+
+<span class="slice">🍕</span>
+
+<span class="b1">
+Pizza
+</span>
+
+<span class="b2">
+Creator
+</span>
+
+<span class="staff-badge">
+
+STAFF
+
+</span>
+
+</a>
+
+<div class="admin-actions">
+
+
+<button
+id="refreshBtn"
+class="btn btn-outline btn-sm">
+
+Refresh
+
+</button>
+
+<button
+id="logoutBtn"
+class="btn btn-primary btn-sm">
+
+Logout
+
+</button>
+
+</div>
+
+</div>
+
+</header>
+
+<!-- ========================================================= -->
+
+<div class="admin-shell">
+
+<div class="container">
+
+<!-- ========================================================= -->
+<!-- NAVIGATION -->
+<!-- ========================================================= -->
+
+<div class="admin-nav">
+
+<button
+class="chip active admin-tab"
+data-page="ordersPage">
+
+Orders
+
+</button>
+
+<button
+class="chip admin-tab"
+data-page="settingsPage">
+
+Settings
+
+</button>
+
+</div>
+
+<!-- ========================================================= -->
+<!-- ORDERS PAGE -->
+<!-- ========================================================= -->
+
+<section
+id="ordersPage"
+class="admin-page">
+
+<div class="page-header">
+
+<div>
+
+<h1>
+
+Orders
+
+</h1>
+
+<p>
+
+Manage incoming customer orders.
+
+</p>
+
+</div>
+
+</div>
+
+<!-- ===================== -->
+<!-- STATS -->
+<!-- ===================== -->
+
+<div class="stat-row">
+
+<div class="stat-card accent">
+
+<div
+class="num"
+id="statAccepted">
+
+0
+
+</div>
+
+<div class="lbl">
+
+Accepted
+
+</div>
+
+</div>
+
+<div class="stat-card">
+
+<div
+class="num"
+id="statPreparing">
+
+0
+
+</div>
+
+<div class="lbl">
+
+Preparing
+
+</div>
+
+</div>
+
+<div class="stat-card">
+
+<div
+class="num"
+id="statReady">
+
+0
+
+</div>
+
+<div class="lbl">
+
+Ready
+
+</div>
+
+</div>
+
+<div class="stat-card">
+
+<div
+class="num"
+id="statRevenue">
+
+₹0
+
+</div>
+
+<div class="lbl">
+
+Revenue
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ===================== -->
+<!-- FILTER -->
+<!-- ===================== -->
+
+<div class="filter-row">
+
+<button
+class="chip active"
+data-filter="active">
+
+Active
+
+</button>
+
+<button
+class="chip"
+data-filter="all">
+
+All
+
+</button>
+
+<button
+class="chip"
+data-filter="Delivered">
+
+Delivered
+
+</button>
+
+</div>
+
+<!-- ===================== -->
+<!-- TABLE -->
+<!-- ===================== -->
+
+<div class="orders-table-wrap">
+
+<table class="orders-table">
+
+<thead>
+
+<tr>
+
+<th>Ticket</th>
+
+<th>Customer</th>
+
+<th>Items</th>
+
+<th>Total</th>
+
+<th>Payment</th>
+
+<th>Status</th>
+
+<th>Placed</th>
+
+<th>Action</th>
+
+</tr>
+
+</thead>
+
+<tbody id="ordersBody">
+
+</tbody>
+
+</table>
+
+</div>
+
+</section>
+
+<!-- ========================================================= -->
+<!-- SETTINGS PAGE -->
+<!-- ========================================================= -->
+
+<section
+id="settingsPage"
+class="admin-page"
+style="display:none;">
+
+<div class="page-header">
+
+<div>
+
+<h1>
+
+Cafe Settings
+
+</h1>
+
+<p>
+
+Manage your business information and website content.
+
+</p>
+
+</div>
+
+</div>
+
+<form id="settingsForm">
+
+<!-- ====================================== -->
+<!-- BUSINESS -->
+<!-- ====================================== -->
+
+<div class="settings-card">
+
+<h2>
+
+Business Information
+
+</h2>
+
+<div class="form-grid">
+
+<div class="form-group">
+
+<label>
+
+Cafe Name
+
+</label>
+
+<input
+id="settingCafeName">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Brand
+
+</label>
+
+<input
+id="settingBrand">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Phone
+
+</label>
+
+<input
+id="settingPhone">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Email
+
+</label>
+
+<input
+id="settingEmail">
+
+</div>
+
+<div class="form-group full-width">
+
+<label>
+
+Address
+
+</label>
+
+<textarea
+id="settingAddress"
+rows="4">
+
+</textarea>
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Opening Hours
+
+</label>
+
+<input
+id="settingHours">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Document Title
+
+</label>
+
+<input
+id="settingDocumentTitle">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ====================================== -->
+<!-- SOCIAL -->
+<!-- ====================================== -->
+
+<div class="settings-card">
+
+<h2>
+
+Social Media
+
+</h2>
+
+<div class="form-grid">
+
+<div class="form-group">
+
+<label>
+
+WhatsApp
+
+</label>
+
+<input
+id="settingWhatsapp">
+
+</div>
+
+<div class="form-group">
+
+<label>
+
+Instagram
+
+</label>
+
+<input
+id="settingInstagram">
+
+</div>
+
+<div class="form-group full-width">
+
+<label>
+
+Facebook
+
+</label>
+
+<input
+id="settingFacebook">
+
+</div>
+
+</div>
+
+</div>
+
+<!-- ====================================== -->
+<!-- WEBSITE -->
+<!-- ====================================== -->
+
+<div class="settings-card">
+
+<h2>
+
+Website Content
+
+</h2>
+
+<div class="form-grid">
+
+<div class="form-group full-width">
+
+<label>
+
+Logo URL
+
+</label>
+
+<input
+id="settingLogo">
+
+</div>
+
+<div class="form-group full-width">
+
+<label>
+
+Footer Text
+
+</label>
+
+<textarea
+id="settingFooter"
+rows="4">
+
+</textarea>
+
+</div>
+
+<div class="form-group full-width">
+
+<label>
+
+Contact Page Content
+
+</label>
+
+<textarea
+id="settingContactPage"
+rows="5">
+
+</textarea>
+
+</div>
+
+<div class="form-group full-width">
+
+<label>
+
+Location Page Content
+
+</label>
+
+<textarea
+id="settingLocationPage"
+rows="5">
+
+</textarea>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="settings-footer">
+
+<button
+type="submit"
+class="btn btn-primary">
+
+Save Settings
+
+</button>
+
+</div>
+
+</form>
+
+</section>
+
+</div>
+
+</div>
+
+</div>
+
+<div
+class="toast"
+id="toast">
+
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/api.js"></script>
+<script src="js/admin.js"></script>
+
+<script>
+
+document.querySelectorAll(".admin-tab").forEach(button=>{
+
+button.addEventListener("click",()=>{
+
+document
+.querySelectorAll(".admin-tab")
+.forEach(b=>b.classList.remove("active"));
+
+button.classList.add("active");
+
+document
+.querySelectorAll(".admin-page")
+.forEach(page=>page.style.display="none");
+
+document
+.getElementById(button.dataset.page)
+.style.display="block";
+
+});
+
+});
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,1039 @@
+{
+  "categories": [
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "id": "veggie_burger",
+          "name": "Veggie Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Single",
+              "price": 46
+            },
+            {
+              "label": "Combo",
+              "price": 129
+            }
+          ]
+        },
+        {
+          "id": "aloo_tikki_burger",
+          "name": "Allo Tikki Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Single",
+              "price": 35
+            },
+            {
+              "label": "Combo",
+              "price": 119
+            }
+          ]
+        },
+        {
+          "id": "cheese_burger",
+          "name": "Cheese Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Single",
+              "price": 65
+            },
+            {
+              "label": "Combo",
+              "price": 149
+            }
+          ]
+        },
+        {
+          "id": "cheese_spiced_burger",
+          "name": "Cheese Spiced Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Single",
+              "price": 65
+            },
+            {
+              "label": "Combo",
+              "price": 149
+            }
+          ]
+        },
+        {
+          "id": "zesty_cron_burger",
+          "name": "Zesty Cron Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Single",
+              "price": 70
+            },
+            {
+              "label": "Combo",
+              "price": 149
+            }
+          ]
+        },
+        {
+          "id": "paneer_burger",
+          "name": "Paneer Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Single",
+              "price": 80
+            },
+            {
+              "label": "Combo",
+              "price": 165
+            }
+          ]
+        },
+        {
+          "id": "crispy_burger",
+          "name": "Crispy Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Single",
+              "price": 65
+            },
+            {
+              "label": "Combo",
+              "price": 149
+            }
+          ]
+        },
+        {
+          "id": "maharaja_burger",
+          "name": "Maharaja Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Single",
+              "price": 100
+            },
+            {
+              "label": "Combo",
+              "price": 185
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Wraps",
+      "items": [
+        {
+          "id": "aloo_tikki_wrap",
+          "name": "Allo Tikki Wrap",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 90
+            }
+          ]
+        },
+        {
+          "id": "spicy_wrap",
+          "name": "Spicy Wrap",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "cheese_wrap",
+          "name": "Cheese Wrap",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 105
+            }
+          ]
+        },
+        {
+          "id": "paneer_wrap",
+          "name": "Paneer Wrap",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pasta",
+      "items": [
+        {
+          "id": "white_cheese_pasta",
+          "name": "White Cheese Pasta",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 105
+            }
+          ]
+        },
+        {
+          "id": "red_sauce_pasta",
+          "name": "Red Sauce Pasta",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 105
+            }
+          ]
+        },
+        {
+          "id": "makhni_sauce_pasta",
+          "name": "Makhni Sauce Pasta",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "id": "tandoori_pasta",
+          "name": "Tandoori Pasta",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "id": "mix_sauce_pasta",
+          "name": "Mix Sauce Pasta",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "id": "tangy_pasta",
+          "name": "Tangy Pasta",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches",
+      "items": [
+        {
+          "id": "grilled_sandwich",
+          "name": "Grilled Sandwich",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 90
+            }
+          ]
+        },
+        {
+          "id": "grilled_spicy_sandwich",
+          "name": "Grilled Spicy Sandwich",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 95
+            }
+          ]
+        },
+        {
+          "id": "cheesy_grill_sandwich",
+          "name": "Cheesy Grill Sandwich",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "id": "paneer_sandwich",
+          "name": "Paneer Sandwich",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "items": [
+        {
+          "id": "taco",
+          "name": "Taco",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "id": "calzon",
+          "name": "Calzon",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "id": "veg_parcel",
+          "name": "Veg Parcel",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 45
+            }
+          ]
+        },
+        {
+          "id": "paneer_parcel",
+          "name": "Paneer Parcel",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 55
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Breads",
+      "items": [
+        {
+          "id": "plain_garlic_bread",
+          "name": "Plain Garlic Bread",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "id": "fresh_veg_bread",
+          "name": "Fresh Veg Bread",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "id": "cheese_bread",
+          "name": "Cheese Bread",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 125
+            }
+          ]
+        },
+        {
+          "id": "paneer_bread",
+          "name": "Paneer Bread",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 135
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Salads",
+      "items": [
+        {
+          "id": "veg_salad",
+          "name": "Veg Salad",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 100
+            }
+          ]
+        },
+        {
+          "id": "paneer_salad",
+          "name": "Paneer Salad",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 115
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Subs",
+      "items": [
+        {
+          "id": "veg_tikki_sub",
+          "name": "Veg Tikki Sub",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 110
+            }
+          ]
+        },
+        {
+          "id": "paneer_sub",
+          "name": "Paneer Sub",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 130
+            }
+          ]
+        },
+        {
+          "id": "cheese_sub",
+          "name": "Cheese Sub",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fries & Dips",
+      "items": [
+        {
+          "id": "salted_fries",
+          "name": "Salted Fries",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 70
+            }
+          ]
+        },
+        {
+          "id": "peri_peri_fries",
+          "name": "Peri-Peri Fries",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "id": "masala_fries",
+          "name": "Masala Fries",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 75
+            }
+          ]
+        },
+        {
+          "id": "saucy_fries",
+          "name": "Saucy Fries",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 85
+            }
+          ]
+        },
+        {
+          "id": "cheesy_dip",
+          "name": "Cheesey Dip",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 20
+            }
+          ]
+        },
+        {
+          "id": "spicy_dip",
+          "name": "Spicy Dip",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 20
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza Category 1",
+      "items": [
+        {
+          "id": "pizza_category_1_1",
+          "name": "Fresh Farm",
+          "description": "Onion, Tomato, Mushroom, Capsicum",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 160
+            },
+            {
+              "label": "Medium",
+              "price": 310
+            },
+            {
+              "label": "Large",
+              "price": 470
+            },
+            {
+              "label": "Giant",
+              "price": 610
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_1_2",
+          "name": "Tandoori Paneer",
+          "description": "Onion, Red Pepper, Paneer",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 160
+            },
+            {
+              "label": "Medium",
+              "price": 310
+            },
+            {
+              "label": "Large",
+              "price": 470
+            },
+            {
+              "label": "Giant",
+              "price": 610
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_1_3",
+          "name": "Makahni Paneer",
+          "description": "Capsicum, Paneer & Makhni Sauce",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 160
+            },
+            {
+              "label": "Medium",
+              "price": 310
+            },
+            {
+              "label": "Large",
+              "price": 470
+            },
+            {
+              "label": "Giant",
+              "price": 610
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_1_4",
+          "name": "Zesty Pizza",
+          "description": "Corn, Capsicum, Paneer & Achari Sauce",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 160
+            },
+            {
+              "label": "Medium",
+              "price": 310
+            },
+            {
+              "label": "Large",
+              "price": 470
+            },
+            {
+              "label": "Giant",
+              "price": 610
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_1_5",
+          "name": "Bewitch Pizza",
+          "description": "Jalapeno, Mushroom, Capsicum",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 160
+            },
+            {
+              "label": "Medium",
+              "price": 310
+            },
+            {
+              "label": "Large",
+              "price": 470
+            },
+            {
+              "label": "Giant",
+              "price": 610
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza Category 2",
+      "items": [
+        {
+          "id": "pizza_category_2_1",
+          "name": "Deluxe Pizza",
+          "description": "Capsicum, Onion, Mushroom, Corn, Paneer",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 181
+            },
+            {
+              "label": "Medium",
+              "price": 360
+            },
+            {
+              "label": "Large",
+              "price": 490
+            },
+            {
+              "label": "Giant",
+              "price": 730
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_2_2",
+          "name": "Specific Pizza",
+          "description": "Jalapeno, Black Olives, Corn & Extra Cheese",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 181
+            },
+            {
+              "label": "Medium",
+              "price": 360
+            },
+            {
+              "label": "Large",
+              "price": 490
+            },
+            {
+              "label": "Giant",
+              "price": 730
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_2_3",
+          "name": "Spicy Paneer Pizza",
+          "description": "Paneer, Red Pepper, Capsicum",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 181
+            },
+            {
+              "label": "Medium",
+              "price": 360
+            },
+            {
+              "label": "Large",
+              "price": 490
+            },
+            {
+              "label": "Giant",
+              "price": 730
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_2_4",
+          "name": "Chilli Paneer Pizza",
+          "description": "Jalapeno, Corn, Red Pepper, Paneer & Spicy Sauce",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 181
+            },
+            {
+              "label": "Medium",
+              "price": 360
+            },
+            {
+              "label": "Large",
+              "price": 490
+            },
+            {
+              "label": "Giant",
+              "price": 730
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza Category 3",
+      "items": [
+        {
+          "id": "pizza_category_3_1",
+          "name": "Cluster Pizza (Mix Veg)",
+          "description": "Onion, Capsicum, Jalapeno, Mushroom, Corn, Tomato, Black Olives & Extra Cheese",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 205
+            },
+            {
+              "label": "Medium",
+              "price": 440
+            },
+            {
+              "label": "Large",
+              "price": 560
+            },
+            {
+              "label": "Giant",
+              "price": 840
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_3_2",
+          "name": "Veg Superior Pizza",
+          "description": "Capsicum, Mushroom, Corn, Jalapeno, Red Pepper, Paneer & Extra Cheese",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 205
+            },
+            {
+              "label": "Medium",
+              "price": 440
+            },
+            {
+              "label": "Large",
+              "price": 560
+            },
+            {
+              "label": "Giant",
+              "price": 840
+            }
+          ]
+        },
+        {
+          "id": "pizza_category_3_3",
+          "name": "Great Veg Pizza",
+          "description": "Paneer, Mushroom, Corn, Capsicum, Tomato, Jalapeno, Tikki Crush & Extra Cheese",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 205
+            },
+            {
+              "label": "Medium",
+              "price": 440
+            },
+            {
+              "label": "Large",
+              "price": 560
+            },
+            {
+              "label": "Giant",
+              "price": 840
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Simple Pizza",
+      "items": [
+        {
+          "id": "simple_pizza_1",
+          "name": "Cheese & Paneer Pizza",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 140
+            },
+            {
+              "label": "Medium",
+              "price": 270
+            },
+            {
+              "label": "Large",
+              "price": 425
+            },
+            {
+              "label": "Giant",
+              "price": 580
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Veg Treat",
+      "items": [
+        {
+          "id": "veg_treat_1",
+          "name": "Double Cheese Pizza",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 130
+            },
+            {
+              "label": "Medium",
+              "price": 260
+            },
+            {
+              "label": "Large",
+              "price": 390
+            },
+            {
+              "label": "Giant",
+              "price": 550
+            }
+          ]
+        },
+        {
+          "id": "veg_treat_2",
+          "name": "Cheese Mushroom Pizza",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 130
+            },
+            {
+              "label": "Medium",
+              "price": 260
+            },
+            {
+              "label": "Large",
+              "price": 390
+            },
+            {
+              "label": "Giant",
+              "price": 550
+            }
+          ]
+        },
+        {
+          "id": "veg_treat_3",
+          "name": "Cheese Corn Pizza",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            {
+              "label": "Regular",
+              "price": 130
+            },
+            {
+              "label": "Medium",
+              "price": 260
+            },
+            {
+              "label": "Large",
+              "price": 390
+            },
+            {
+              "label": "Giant",
+              "price": 550
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
