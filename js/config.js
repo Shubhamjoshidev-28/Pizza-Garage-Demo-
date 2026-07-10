@@ -20,7 +20,7 @@
 const CONFIG = {
 
     // Google Apps Script Web App URL
-    APPS_SCRIPT_URL:"https://script.google.com/macros/s/AKfycbzeCH2D6JRtAlTNP6CkEWB0TTW02FjCrDouTjJA_zKm80lWKgXGrUmpUUml4Oj42jpL/exec",
+    APPS_SCRIPT_URL:"https://script.google.com/macros/s/AKfycbyuhS3r_SuQepvv6V_1JvtgqbhyoUiSn6ZbML0ebb0LFv_VgHDWeq_Yiw-v76gDwArP/exec",
 
     // Website Information
     CAFE_NAME: "Pizza Creator",
