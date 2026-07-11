@@ -79,6 +79,18 @@
             { "label": "Medium", "price": 250 },
             { "label": "Large", "price": 360 }
           ]
+        },
+        {
+          "id": "cheese_onion",
+          "name": "Cheese Onion",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            { "label": "Small", "price": 130 },
+            { "label": "Medium", "price": 250 },
+            { "label": "Large", "price": 360 }
+          ]
         }
       ]
     },
@@ -206,7 +218,7 @@
         {
           "id": "city_special",
           "name": "City Special",
-          "description": "Pineapple, Corn, Onion, Jalapeno, Olives",
+          "description": "Corn, Onion, Jalapeno, Olives",
           "image": "",
           "available": true,
           "sizes": [
@@ -227,27 +239,27 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 40 }
+            { "label": "Regular", "price": 45 }
           ]
         },
         {
-          "id": "veggie_burger",
-          "name": "Veggie Burger",
+          "id": "veggi_burger",
+          "name": "Veggi Burger",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 50 }
+            { "label": "Regular", "price": 55 }
           ]
         },
         {
-          "id": "cheese_paneer_burger",
-          "name": "Cheese Paneer Burger",
+          "id": "cheese_burger",
+          "name": "Cheese Burger",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 70 }
+            { "label": "Regular", "price": 80 }
           ]
         },
         {
@@ -271,6 +283,16 @@
           ]
         },
         {
+          "id": "cheese_paneer_burger",
+          "name": "Cheese Paneer Burger",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            { "label": "Regular", "price": 90 }
+          ]
+        },
+        {
           "id": "double_patty_burger",
           "name": "Double Patty Burger",
           "description": "",
@@ -283,11 +305,11 @@
       ]
     },
     {
-      "name": "Sandwiches",
+      "name": "Sandwich",
       "items": [
         {
-          "id": "veggie_sandwich_4pc",
-          "name": "Veggie Sandwich (4 pcs)",
+          "id": "veggi_sandwich",
+          "name": "Veggi Sandwich",
           "description": "",
           "image": "",
           "available": true,
@@ -337,7 +359,7 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 90 }
+            { "label": "Regular", "price": 100 }
           ]
         },
         {
@@ -347,12 +369,12 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 90 }
+            { "label": "Regular", "price": 100 }
           ]
         },
         {
-          "id": "makhni_sauce_pasta",
-          "name": "Makhni Sauce Pasta",
+          "id": "makhni_pasta",
+          "name": "Makhni Pasta",
           "description": "",
           "image": "",
           "available": true,
@@ -372,12 +394,12 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 80 }
+            { "label": "Regular", "price": 90 }
           ]
         },
         {
-          "id": "peri_peri_fries",
-          "name": "Peri-Peri Fries",
+          "id": "periperi_fries",
+          "name": "Periperi Fries",
           "description": "",
           "image": "",
           "available": true,
@@ -392,32 +414,7 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 110 }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Salads",
-      "items": [
-        {
-          "id": "veg_salad",
-          "name": "Veg Salad",
-          "description": "",
-          "image": "",
-          "available": true,
-          "sizes": [
             { "label": "Regular", "price": 120 }
-          ]
-        },
-        {
-          "id": "paneer_salad",
-          "name": "Paneer Salad",
-          "description": "",
-          "image": "",
-          "available": true,
-          "sizes": [
-            { "label": "Regular", "price": 150 }
           ]
         }
       ]
@@ -425,6 +422,16 @@
     {
       "name": "Sides",
       "items": [
+        {
+          "id": "garlic_bread",
+          "name": "Garlic Bread",
+          "description": "",
+          "image": "",
+          "available": true,
+          "sizes": [
+            { "label": "Regular", "price": 120 }
+          ]
+        },
         {
           "id": "lava_cake",
           "name": "Lava Cake",
@@ -467,7 +474,7 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 80 }
+            { "label": "Regular", "price": 90 }
           ]
         },
         {
@@ -487,7 +494,7 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 80 }
+            { "label": "Regular", "price": 90 }
           ]
         },
         {
@@ -497,7 +504,7 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 90 }
+            { "label": "Regular", "price": 100 }
           ]
         },
         {
@@ -507,27 +514,17 @@
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 90 }
+            { "label": "Regular", "price": 100 }
           ]
         }
       ]
     },
     {
-      "name": "Pizza Toppings",
+      "name": "Pizza Mania Range",
       "items": [
         {
-          "id": "topping_tomato",
-          "name": "Tomato Topping",
-          "description": "",
-          "image": "",
-          "available": true,
-          "sizes": [
-            { "label": "Regular", "price": 59 }
-          ]
-        },
-        {
-          "id": "topping_onion",
-          "name": "Onion Topping",
+          "id": "tomato",
+          "name": "Tomato",
           "description": "",
           "image": "",
           "available": true,
@@ -536,98 +533,98 @@
           ]
         },
         {
-          "id": "topping_capsicum",
-          "name": "Capsicum Topping",
+          "id": "onion",
+          "name": "Onion",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 70 }
+            { "label": "Regular", "price": 80 }
           ]
         },
         {
-          "id": "topping_corn",
-          "name": "Corn Topping",
+          "id": "capsicum",
+          "name": "Capsicum",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 75 }
+            { "label": "Regular", "price": 80 }
           ]
         },
         {
-          "id": "topping_pineapple",
-          "name": "Pineapple Topping",
+          "id": "corn",
+          "name": "Corn",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 75 }
+            { "label": "Regular", "price": 80 }
           ]
         }
       ]
     },
     {
-      "name": "Double Topping",
+      "name": "Double Toppings",
       "items": [
         {
-          "id": "double_onion_corn",
+          "id": "onion_corn",
           "name": "Onion + Corn",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 80 }
+            { "label": "Regular", "price": 90 }
           ]
         },
         {
-          "id": "double_onion_capsicum",
+          "id": "onion_capsicum",
           "name": "Onion + Capsicum",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 80 }
+            { "label": "Regular", "price": 90 }
           ]
         },
         {
-          "id": "double_onion_paneer",
+          "id": "onion_paneer",
           "name": "Onion + Paneer",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 90 }
+            { "label": "Regular", "price": 100 }
           ]
         },
         {
-          "id": "double_paneer_capsicum",
+          "id": "paneer_capsicum",
           "name": "Paneer + Capsicum",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 90 }
+            { "label": "Regular", "price": 100 }
           ]
         },
         {
-          "id": "double_onion_jalapeno",
+          "id": "onion_jalapeno",
           "name": "Onion + Jalapeno",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
-            { "label": "Regular", "price": 90 }
+            { "label": "Regular", "price": 100 }
           ]
         }
       ]
     },
     {
-      "name": "Loaded Toppings",
+      "name": "Loaded",
       "items": [
         {
-          "id": "loaded_onion_capsicum_tomato",
-          "name": "Onion + Capsicum + Tomato",
+          "id": "onion_capsicum_tomato",
+          "name": "Onion+Capsicum + Tomato",
           "description": "",
           "image": "",
           "available": true,
@@ -636,8 +633,8 @@
           ]
         },
         {
-          "id": "loaded_onion_paneer_corn",
-          "name": "Onion + Paneer + Corn",
+          "id": "onion_paneer_corn",
+          "name": "Onion+Paneer + Corn",
           "description": "",
           "image": "",
           "available": true,
@@ -648,41 +645,41 @@
       ]
     },
     {
-      "name": "Pizza Upgrades",
+      "name": "Upgrade Your Pizza",
       "items": [
         {
-          "id": "upgrade_extra_cheese",
+          "id": "extra_cheese",
           "name": "Extra Cheese",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
             { "label": "Small", "price": 30 },
-            { "label": "Medium", "price": 60 },
+            { "label": "Med.", "price": 60 },
             { "label": "Large", "price": 80 }
           ]
         },
         {
-          "id": "upgrade_cheese_crust_base",
-          "name": "Cheese Crust Base",
+          "id": "cheese_burst_base",
+          "name": "Cheese Burst Base",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
             { "label": "Small", "price": 50 },
-            { "label": "Medium", "price": 80 },
+            { "label": "Med.", "price": 80 },
             { "label": "Large", "price": 110 }
           ]
         },
         {
-          "id": "upgrade_extra_topping",
+          "id": "extra_topping",
           "name": "Extra Topping",
           "description": "",
           "image": "",
           "available": true,
           "sizes": [
             { "label": "Small", "price": 20 },
-            { "label": "Medium", "price": 30 },
+            { "label": "Med.", "price": 30 },
             { "label": "Large", "price": 40 }
           ]
         }
